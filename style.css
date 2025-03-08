@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+}
+header h1{
+    font-weight: bold;
+}
+nav{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0;
+}
+nav a{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+    background-color: darkgrey;
+    width: 100%;
+    margin-right: 0;
+}
+main{
+    max-width: 900px;
+    height: 96vh;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+footer{
+    background-color: #333;
+    height: 10%vh;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}   
+
+.minhafoto{
+    width: 600px;
+    height: 600px;
+    background-image: url("imagens/ef1dc26e-dfae-47c0-a914-3228568e29b0.jpg");   
+    margin: auto; 
+    background-position: center center;
+}
+ul{
+    margin-left: 10%;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+}
+li{
+    margin: 10px;
+}
+.contato{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align: left;
+    font-size: 20px;
+}
+.contatodiv{
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+button{
+    font-size: large;
+    font-weight: bold;
+}
